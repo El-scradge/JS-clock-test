@@ -1,0 +1,17 @@
+input[type=radio]{
+  display: none;
+  + label.clock__select{
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px;
+    position: relative;
+    top: 10px;
+    background: #e8600d;
+    box-shadow: 2px 2px 2px #000;
+  }
+  &:checked{
+    + label.clock__select{
+      background: #00b3ee;
+    }
+  }
+}

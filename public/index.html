@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock</title>
+    <script src="global.js" ></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<header>
+    <div class="centered">
+        <h1>Javascript Test for CPP.</h1>
+        <h3>John Martin</h3>
+    </div>
+</header>
+<nav>
+    <form id="clock__switcher" class="centered">
+        <input type="radio" id="clock__switcher--analogue" name="clock-switcher" class="clock__switcher" value="analogue"/>
+        <label for="clock__switcher--analogue" class="clock__select">Analogue</label>
+        <input type="radio" id="clock__switcher--digital" name="clock-switcher" class="clock__switcher" value="digital" checked/>
+        <label for="clock__switcher--digital" class="clock__select">Digital</label>
+    </form>
+
+</nav>
+<content>
+    <div class="centered">
+        <div class="clock__holder" align="center">
+            <div id="clock--analogue">
+
+            </div>
+
+            <div id="clock--digital"></div>
+            <h4 id="clock--date"></h4>
+            <h4 id="clock--dst"></h4>
+        </div>
+
+    </div>
+</content>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+$primary-color: #222;
+$secondary-color: #913;
+$font-color: #fffdf4;
+
+@import 'modules/modules';
+
+body {
+  background: $primary-color;
+}
